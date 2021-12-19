@@ -1,6 +1,6 @@
 :root {
     --green: #107C10;
-    --gray: #3A3A3A;
+    --gray: hsl(0, 0%, 23%, 0.9);
     --white: #eeeeee;
 }
 
@@ -71,6 +71,9 @@ main {
     justify-content: space-between;
 }
 
+main div img {
+    width:100% 
+}
 .project {
     border: var(--white) dashed 2px;
     position: relative;
@@ -97,7 +100,7 @@ main {
     align-self: flex-end;
 }
 
-/* Overlay and hover for projects */
+/* Overlay for projects */
 
 .overlay {
     position: absolute;
@@ -110,13 +113,13 @@ main {
     height: 0;
     transition: .5s ease;
   }
-  
-.project:hover .overlay {
-    height: 100%;
-}
 
-.text {
-    color: white;
+  .project:hover .overlay {
+    height: 53.3333px;
+  }
+  
+  .text {
+    color: var(--white);
     font-size: 20px;
     position: absolute;
     top: 50%;
@@ -125,7 +128,7 @@ main {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-}
+  }
 
 
 
