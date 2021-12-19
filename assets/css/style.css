@@ -65,7 +65,8 @@ li {
 
 /* MAIN */
 
-main h2 {
+main h2,
+#about-me h2 {
     font-size: 2em;
     border: 2px red dashed;
     padding: 1.3em 0 0.5em 1.3em;
@@ -142,8 +143,32 @@ section div img {
 .project:hover {
       border: var(--green) 5px solid;
 
-  }
+}
 
+/* About me */
+
+#about-me {
+    border: yellow 2px dashed;
+}
+
+#profile {
+    justify-content: space-between;
+    padding: 0 2em 0 2em;
+}
+
+#facts {
+    border:firebrick 2px dashed;
+    flex: 1 0 auto;
+}
+
+.fact {
+    border:deepskyblue 2px dashed;
+}
+
+#profile-pic {
+    border: fuchsia 2px dashed;
+    flex: 1 0 auto;
+}
 
 
 
