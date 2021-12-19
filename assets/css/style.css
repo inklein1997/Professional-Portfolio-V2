@@ -19,15 +19,36 @@ body {
     background-image: url(../images/background.jpg);
 }
 
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.column {
+    display: flex;
+    flex-direction: column
+}
+
 header {
     border:var(--white) 2px dashed;
+    justify-content: space-between;
 }
 
 header #top-left {
     border:var(--green) 2px dashed;
+    align-items:center;
 }
 
 #avatar {
     border-radius: 100%;
+}
+
+ul {
+    border: 2px red dashed;
+}
+
+li {
+    align-self: center;
 }
 
