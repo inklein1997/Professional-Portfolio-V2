@@ -1,0 +1,33 @@
+:root {
+    --green: #107C10;
+    --gray: #3A3A3A;
+    --white: #eeeeee;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--white)
+}
+
+body {
+    background-image: url(../images/background.jpg);
+}
+
+header {
+    border:var(--white) 2px dashed;
+}
+
+header #top-left {
+    border:var(--green) 2px dashed;
+}
+
+#avatar {
+    border-radius: 100%;
+}
+
