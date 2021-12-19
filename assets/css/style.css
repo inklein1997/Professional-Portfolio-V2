@@ -66,25 +66,20 @@ li {
 
 main {
     border: var(--green) dashed 2px;
-    padding: 0 2em 0 2em;
-    margin-top:5em;
+    padding: 3px 2em 3px 2em;
+    margin-top: 5em;
     justify-content: space-between;
 }
 
 main div img {
-    width:100% 
+    width:100%;
+    border-radius: 9px;
 }
 .project {
-    border: var(--white) dashed 2px;
+    /* border: var(--white) dashed 2px; */
     position: relative;
-}
-
-#project-1-img {
-    max-width: 400px;
-    min-width: 200px;
-    flex-grow: 2;
-    flex-basis: 1;
-    align-self: flex-end;
+    padding:4px;
+    border-radius: 9px;
 }
 
 #project-2,
@@ -95,12 +90,17 @@ main div img {
 .project-img {
     max-width:200px;
     min-width:100px;
-    flex-grow: 1;
-    flex-basis: 2;
+    align-self: flex-end;
+
+}
+
+#project-1-img {
+    max-width: 400px;
+    min-width: 200px;
     align-self: flex-end;
 }
 
-/* Overlay for projects */
+/* Overlay hover for projects */
 
 .overlay {
     position: absolute;
@@ -130,6 +130,12 @@ main div img {
     text-align: center;
   }
 
+  /* Drop shadow hover for projects */
+
+.project:hover {
+      border: var(--green) 5px solid;
+
+  }
 
 
 
