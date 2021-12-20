@@ -97,6 +97,8 @@ footer h2 {
 
 #project-1 {
     flex-grow:0;
+    flex-shrink: 1;
+    min-width: 200px;
 }
 
 #project-2,
@@ -187,7 +189,6 @@ section div img {
 #profile {
     justify-content: space-evenly;
     padding: 0 2em 0 2em;
-
 }
 
 #fact {
@@ -200,7 +201,8 @@ section div img {
 
 #profile-pic {
     /* border: fuchsia 2px dashed; */
-    flex: 0 0 600px;
+    height: 400px;
+    /* width: 400px; */
 }
 
 #gradient {
@@ -213,13 +215,16 @@ section div img {
     color: white;
     padding:20px;
     font-size: 1.5em;
+    justify-content: center;
+    min-width: 378px;
     
         
 }
 
 h3 {
     /* border:yellow solid 2px; */
-    height:100%;
+    /* height:100%; */
+    /* flex:1 1 100% */
 }
 
 /* Footer */
@@ -231,20 +236,22 @@ footer {
 
 #contact {
     justify-content: space-between;
-    padding: 0 2em 0 2em;
-    gap: 10px
-    
+    padding: 0 2em 0 2em;  
 }
 
 .social {
     /* border: green 2px dashed; */
     background-color: var(--gray);
-    min-width: 425px;
+    max-width: 425px;
+    min-width: 200px;
     border-radius: 9px;
+    flex-grow: 1
+    
 }
 
 .padding {
     padding:4px;
+    flex-grow: 1;
 }
 
 h4 {
@@ -252,6 +259,7 @@ h4 {
     font-size: 1.3em;
     align-self: center;
 }
+
 footer div img {
     margin:35px;
     align-self: center;
