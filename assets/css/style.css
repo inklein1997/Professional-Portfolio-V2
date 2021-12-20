@@ -80,7 +80,7 @@ footer h2 {
 }
 
 section {
-    border: var(--green) dashed 2px;
+    /* border: var(--green) dashed 2px; */
     padding: 3px 2em 3px 2em;
     justify-content: space-between;
 
@@ -146,6 +146,17 @@ section div img {
   }
 
   /* Drop shadow hover for projects */
+                 
+.project:hover,
+.padding:hover {
+    box-shadow: inset 
+    0px 0px 8px 
+    var(--green),
+    0 0 35px 
+    var(--green);
+}
+
+  /* Border around elements when hover */
 
 .project,
 .padding {
