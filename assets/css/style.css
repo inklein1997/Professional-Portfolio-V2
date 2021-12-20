@@ -35,7 +35,7 @@ body {
 /* HEADER */
 
 header {
-    border:var(--white) 2px dashed;
+    /* border:var(--white) 2px dashed; */
     justify-content: space-between;
 }
 
@@ -66,16 +66,16 @@ li {
 /* MAIN */
 
 main h2,
-#about-me h2 {
+#about-me h2,
+footer h2 {
     font-size: 2em;
-    border: 2px red dashed;
+    /* border: 2px red dashed; */
     padding: 1.3em 0 0.5em 1.3em;
 }
 
 section {
-    border: var(--green) dashed 2px;
+    /* border: var(--green) dashed 2px; */
     padding: 3px 2em 3px 2em;
-    /* margin-top: 5em; */
     justify-content: space-between;
 }
 
@@ -103,8 +103,8 @@ section div img {
 }
 
 #project-1-img {
-    max-width: 400px;
-    min-width: 200px;
+    max-width: 390px;
+    min-width: 190px;
     align-self: flex-end;
 }
 
@@ -140,15 +140,17 @@ section div img {
 
   /* Drop shadow hover for projects */
 
-.project:hover {
+.project:hover,
+.padding:hover {
       border: var(--green) 5px solid;
+      
 
 }
 
 /* About me */
 
 #about-me {
-    border: yellow 2px dashed;
+    /* border: yellow 2px dashed; */
 }
 
 #profile {
@@ -158,7 +160,7 @@ section div img {
 }
 
 #fact {
-    border:deepskyblue 2px dashed;
+    /* border:deepskyblue 2px dashed; */
     margin-right: 2em;
     flex:1 0 20%;
     align-self: flex-end;
@@ -166,7 +168,7 @@ section div img {
 }
 
 #profile-pic {
-    border: fuchsia 2px dashed;
+    /* border: fuchsia 2px dashed; */
     flex: 0 0 600px;
 }
 
@@ -185,25 +187,50 @@ section div img {
 }
 
 h3 {
-    border:yellow solid 2px;
+    /* border:yellow solid 2px; */
     height:100%;
 }
 
 /* Footer */
 
 footer {
-    border: red 2px dashed;
+    /* border: red 2px dashed; */
+    display:flex;
+}
+
+#contact {
+    justify-content: space-between;
+    padding: 0 2em 0 2em;
+    gap: 10px
+    
 }
 
 .social {
-    border: green 2px dashed;
-    width: 20vw;
-}
-h4 {
-    /* border: yellow 2px dashed; */
-    flex: 1 0 auto;
+    /* border: green 2px dashed; */
+    background-color: var(--gray);
+    min-width: 425px;
+    border-radius: 9px;
 }
 
+.padding {
+    padding:4px;
+}
+
+h4 {
+    /* border: yellow 2px dashed; */
+    font-size: 1.3em;
+    align-self: center;
+}
+footer div img {
+    margin:35px;
+    align-self: center;
+    width: 30px;
+    height: 30px;
+}
+
+#space {
+    height: 2em
+}
 
 
 
