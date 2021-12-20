@@ -80,11 +80,19 @@ footer h2 {
 }
 
 #projects {
-    /* border: var(--green) dashed 2px; */
+    border: var(--green) dashed 2px;
     padding: 3px 2em 3px 2em;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: nowrap;
     gap: 10px;
+}
+
+#mini-projects {
+    border: red 2px dashed;
+    flex-grow: 1;
+    justify-content: space-around;
+    min-width:415px;
+
 }
 
 .project {
@@ -92,13 +100,14 @@ footer h2 {
     position: relative;
     padding:4px;
     border-radius: 9px;
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 
 #project-1 {
+    border: 2px yellow dashed;
     flex-grow:0;
-    flex-shrink: 1;
-    min-width: 200px;
+    /* flex-shrink: 1; */
+    width: 415px;
 }
 
 #project-2,
@@ -106,17 +115,20 @@ footer h2 {
 #project-4,
 #project-5,
 #project-6,
-.project-img {
+.project-img 
+{
     max-width:200px;
-    min-width:150px;
+    /* min-width:150px; */
+    /* width: 100%; */
     align-self: flex-end;
     /* flex: 1 0 100px; */
-
+    border:deeppink 2px dashed;
 }
 
 #project-1-img {
-    max-width: 400px;
-    min-width: 150px;
+    /* max-width: 400px; */
+    /* min-width: 150px; */
+    width:400px;
     /* align-self: flex-end; */
 }
 
@@ -190,11 +202,12 @@ section div img {
 #profile {
     justify-content: space-evenly;
     padding: 0 2em 0 2em;
+    gap: 2em;
 }
 
-#fact {
-    /* border:deepskyblue 2px dashed; */
-    margin-right: 2em;
+/* #fact { */
+    border:deepskyblue 2px dashed;
+    /* margin-right: 2em; */
     flex:1 0 20%;
     align-self: flex-end;
     background-color: var(--gray);
@@ -203,7 +216,7 @@ section div img {
 #profile-pic {
     /* border: fuchsia 2px dashed; */
     height: 400px;
-    /* width: 400px; */
+    max-width: 560px;
 }
 
 #gradient {
@@ -277,11 +290,11 @@ footer div img {
 
 /* Tablets */
 @media screen and (max-width: 992px) {
-    /* #projects {
+    #projects {
         flex-wrap:wrap;
     }
     
-    #project-2,
+    /* #project-2,
     #project-3,
     #project-4,
     #project-5,
