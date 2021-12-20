@@ -50,17 +50,23 @@ header #top-left {
     border-radius: 100%;
 }
 
-ul {
+nav {
     /* border: 2px red dashed; */
     padding-right: 2em;
     justify-content: flex-end;
     flex: 1 0 auto;
 }
 
-li {
+a {
     /* border: var(--white) 2px dashed; */
     margin: 0.5em;
     align-self: center;
+}
+
+a:visited,
+a:link {
+    text-decoration: none;
+    color: white;
 }
 
 /* MAIN */
@@ -74,9 +80,10 @@ footer h2 {
 }
 
 section {
-    /* border: var(--green) dashed 2px; */
+    border: var(--green) dashed 2px;
     padding: 3px 2em 3px 2em;
     justify-content: space-between;
+
 }
 
 section div img {
@@ -140,11 +147,16 @@ section div img {
 
   /* Drop shadow hover for projects */
 
+.project,
+.padding {
+    border: 3px solid transparent;
+    border-radius: 9px;
+    display: block;
+}
+  
 .project:hover,
 .padding:hover {
-      border: var(--green) 5px solid;
-      
-
+    border: 3px solid var(--green);
 }
 
 /* About me */
@@ -246,11 +258,20 @@ footer div img {
   
 /* Large smartphones */
 @media screen and (max-width: 768px) {
-    header ul {
+    nav {
         justify-content: space-around;
     }
     #fact {
         margin-right: 0;
+    }
+
+    .projects {
+        width:50%;
+    }
+
+    #project-1 {
+        width:100%;
+        height:100%;
     }
 }
   
