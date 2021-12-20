@@ -152,30 +152,57 @@ section div img {
 }
 
 #profile {
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0 2em 0 2em;
+
 }
 
-#facts {
-    border:firebrick 2px dashed;
-    flex: 1 0 auto;
-}
-
-.fact {
+#fact {
     border:deepskyblue 2px dashed;
+    margin-right: 2em;
+    flex:1 0 20%;
+    align-self: flex-end;
+    background-color: var(--gray);
 }
 
 #profile-pic {
     border: fuchsia 2px dashed;
-    flex: 1 0 auto;
+    flex: 0 0 600px;
 }
 
+#gradient {
+    background-image:
+    linear-gradient(to top, hsl(0, 4%, 17%, 0.1), hsl(0,4%,17%,1.0)),
+    url(../images/game-background.jpg);
+    width:100%;
+    height: 400px;
+    background-size:cover;
+    color: white;
+    padding:20px;
+    font-size: 1.5em;
+    
+        
+}
 
+h3 {
+    border:yellow solid 2px;
+    height:100%;
+}
 
+/* Footer */
 
+footer {
+    border: red 2px dashed;
+}
 
-
-
+.social {
+    border: green 2px dashed;
+    width: 20vw;
+}
+h4 {
+    /* border: yellow 2px dashed; */
+    flex: 1 0 auto;
+}
 
 
 
@@ -194,6 +221,9 @@ section div img {
 @media screen and (max-width: 768px) {
     header ul {
         justify-content: space-around;
+    }
+    #fact {
+        margin-right: 0;
     }
 }
   
