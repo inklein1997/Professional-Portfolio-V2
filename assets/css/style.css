@@ -75,23 +75,29 @@ main h2,
 #about-me h2,
 footer h2 {
     font-size: 2em;
-    border: 2px red dashed;
+    /* border: 2px red dashed; */
     padding: 1.3em 0 0.7em 1.3em;
 }
 
-section {
-    border: var(--green) dashed 2px;
+#projects {
+    /* border: var(--green) dashed 2px; */
     padding: 3px 2em 3px 2em;
     justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 10px;
 }
 
 .project {
-    border: var(--white) dashed 2px;
+    /* border: var(--white) dashed 2px; */
     position: relative;
     padding:4px;
     border-radius: 9px;
+    flex-grow: 1;
 }
 
+#project-1 {
+    flex-grow:0;
+}
 
 #project-2,
 #project-3,
@@ -100,7 +106,7 @@ section {
 #project-6,
 .project-img {
     max-width:200px;
-    min-width:180px;
+    min-width:150px;
     align-self: flex-end;
     /* flex: 1 0 100px; */
 
@@ -108,7 +114,7 @@ section {
 
 #project-1-img {
     max-width: 400px;
-    min-width: 200px;
+    min-width: 150px;
     /* align-self: flex-end; */
 }
 
