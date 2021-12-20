@@ -217,7 +217,8 @@ section div img {
 #profile-pic {
     border: fuchsia 2px dashed;
     height: 400px;
-    max-width: 560px;
+    max-width: 550px;
+    min-width: 387px;
 }
 
 #gradient {
