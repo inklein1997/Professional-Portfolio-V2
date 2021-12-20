@@ -75,13 +75,8 @@ main h2,
 #about-me h2,
 footer h2 {
     font-size: 2em;
-<<<<<<< HEAD
     border: 2px red dashed;
     padding: 1.3em 0 0.7em 1.3em;
-=======
-    /* border: 2px red dashed; */
-    padding: 1.3em 0 0.5em 1.3em;
->>>>>>> parent of e3ea767 (adjusted contact buttons to be mobile friendly)
 }
 
 section {
@@ -105,7 +100,7 @@ section {
 #project-6,
 .project-img {
     max-width:200px;
-    min-width:200px;
+    min-width:180px;
     align-self: flex-end;
     /* flex: 1 0 100px; */
 
