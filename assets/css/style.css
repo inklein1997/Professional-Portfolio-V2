@@ -123,7 +123,8 @@ footer h2 {
     width:400px;
 }
 
-section div img {
+.project-img,
+section a img {
     width:100%;
     border-radius: 9px;
 }
