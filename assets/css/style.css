@@ -290,9 +290,53 @@ footer div img {
         min-width: 415px;
     }
     
-@media screen and (max-width: 702px) {
+/* @media screen and (max-width: 702px) {
     nav {
         justify-content: space-between;
         margin: 0 2em 0 2em;
+    }
+} */
+
+@media screen and (max-width: 768px) {
+    nav {
+        justify-content: space-evenly;
+        /* margin: 0 2em 0 2em; */
+        flex-basis: 100%
+    }
+    header #top-left {
+        flex-basis: 100%;
+    }
+
+    main h2 {
+        flex-basis: 100%;
+    }
+
+    #project-1 {
+        flex-basis: 100%;
+    }
+
+    #mini-projects {
+        flex-basis:100%;
+        max-width:683px;
+    }
+
+    #about-me-link {
+        flex-basis: 100%;
+    }
+
+    #fact {
+        flex-basis: 100%;
+    }
+
+    #profile-pic {
+        flex-basis:100%;
+    }
+
+    #contact-link {
+        flex-basis: 100%;
+    }
+
+    .social {
+        flex-basis: 100%;
     }
 }
