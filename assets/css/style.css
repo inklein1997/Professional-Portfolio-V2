@@ -199,7 +199,7 @@ section a img {
 }
 
 #fact {
-    /* border:deepskyblue 2px dashed; */
+    border:deepskyblue 2px dashed;
     /* margin-right: 2em; */
     flex:1 0 20%;
     align-self: flex-end;
@@ -207,10 +207,11 @@ section a img {
 }
 
 #profile-pic {
-    /* border: fuchsia 2px dashed; */
+    border: fuchsia 2px dashed;
     height: 400px;
     max-width: 550px;
     min-width: 387px;
+    flex: 1 0 80%
 }
 
 #gradient {
@@ -222,9 +223,10 @@ section a img {
     background-size:cover;
     color: white;
     padding:20px;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    line-height: 1em;
     justify-content: center;
-    min-width: 378px;
+    min-width: 260px;
     
         
 }
@@ -276,7 +278,7 @@ footer div img {
 
 @media screen and (max-width: 1054px) {
     #profile-pic {
-        flex-grow:1;
+        /* flex-grow:1; */
     }
 
 @media screen and (max-width: 926px) {
