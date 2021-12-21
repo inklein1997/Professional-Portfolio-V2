@@ -315,6 +315,10 @@ footer div img {
         flex-basis: 100%;
     }
 
+    #project-1-img {
+        width:100%
+    }
+
     #mini-projects {
         flex-basis:100%;
         max-width:683px;
