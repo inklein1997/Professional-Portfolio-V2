@@ -4,6 +4,7 @@
 - [Project Goal](##Project-Goal)
 - [Links](##Links)
 - [Screenshot of Application](##Screenshot-of-Application)
+- [Wireframe](##Wireframe)
 - [Acknowledgements](##Acknowledgements)
 
 ## Project Goal
@@ -18,6 +19,11 @@ This webpage serves to provide a centralized webpage that is responsive to diffe
 ## Screenshot of Application
 
 ![image of website](./assets/images/screenshot1.jpg)
+
+## Wireframe
+- **Key**: Red = Rows and Blue = Columns <br>
+![wireframe](./assets/images/wireframe.jpg)
+
 
 ## Acknowledgements:
 
