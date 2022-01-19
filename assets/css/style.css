@@ -199,7 +199,7 @@ section a img {
 }
 
 #fact {
-    border:deepskyblue 2px dashed;
+    /* border:deepskyblue 2px dashed; */
     /* margin-right: 2em; */
     flex:1 0 20%;
     align-self: flex-end;
@@ -207,7 +207,7 @@ section a img {
 }
 
 #profile-pic {
-    border: fuchsia 2px dashed;
+    /* border: fuchsia 2px dashed; */
     height: 400px;
     max-width: 550px;
     min-width: 387px;
